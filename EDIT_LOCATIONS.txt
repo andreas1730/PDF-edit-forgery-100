@@ -1,0 +1,909 @@
+PDF-edit-forgery-100
+EDIT LOCATIONS
+
+LICENSE NOTICE
+Original annotations and contributions owned by the dataset contributors are licensed under Creative Commons Attribution 4.0 International (CC BY 4.0): https://creativecommons.org/licenses/by/4.0/
+Third-party source documents retain their applicable rights. This notice grants no additional rights in third-party material or public-domain material.
+
+
+100 original PDFs and their synthetically altered counterparts. Match files using the P001-P100 pair IDs. Page numbers below are one-based. These are research examples, not real fraud cases.
+
+P001 | Performance Select Statement
+Original: genuine/P001_bank-statement_pnc-bank.pdf
+Altered: forged/P001_bank-statement_pnc-bank_FORGED.pdf
+Edited page: 2
+Field: ACH deduction amount (Corporate ACH payment, 07/22)
+Before: 264.50
+After: 764.50
+Change: A 07/22 electronic payment on page 2 was raised from $264.50 to $764.50.
+
+P002 | VIRTUAL CURRENCY CHECKING statement, 10/31/25 thru 11/30/25
+Original: genuine/P002_bank-statement_the-commercial-bank-crawford-georgia.pdf
+Altered: forged/P002_bank-statement_the-commercial-bank-crawford-georgia_FORGED.pdf
+Edited page: 3
+Field: opening balance (balance last statement)
+Before: 12,895.01
+After: 32,895.01
+Change: On page 3, the opening balance (balance last statement) of the General Account's November 2025 statement was raised from $12,895.01 to $32,895.01.
+
+P003 | VIRTUAL CURRENCY CHECKING (09/30/25 THRU 10/31/25)
+Original: genuine/P003_bank-statement_the-commercial-bank-crawford-georgia.pdf
+Altered: forged/P003_bank-statement_the-commercial-bank-crawford-georgia_FORGED.pdf
+Edited page: 1
+Field: opening balance (BALANCE LAST STATEMENT)
+Before: 29,550.32
+After: 90,550.32
+Change: The opening balance on page 1 of the October 2025 statement was raised from 29,550.32 to 90,550.32.
+
+P004 | Wells Fargo Clear Access Banking
+Original: genuine/P004_bank-statement_wells-fargo-bank-n-a.pdf
+Altered: forged/P004_bank-statement_wells-fargo-bank-n-a_FORGED.pdf
+Edited page: 4
+Field: monthly service fee period start date
+Before: 11/01/2024
+After: 11/15/2024
+Change: On page 4 the start of the monthly service fee period was moved from 11/01/2024 to 11/15/2024.
+
+P005 | Wells Fargo Clear Access Banking, June 30, 2025
+Original: genuine/P005_bank-statement_wells-fargo-bank-n-a.pdf
+Altered: forged/P005_bank-statement_wells-fargo-bank-n-a_FORGED.pdf
+Edited page: 1
+Field: account holder name in the mailing address block
+Before: EVAN P JOWERS
+After: ODETTE P HOLT
+Change: The account holder's name in the address block on page 1 was changed from Evan P Jowers to Odette P Holt.
+
+P006 | Wells Fargo Business Essentials Plus
+Original: genuine/P006_bank-statement_wells-fargo-bank-n-a.pdf
+Altered: forged/P006_bank-statement_wells-fargo-bank-n-a_FORGED.pdf
+Edited page: 5
+Field: account holder mailing address (street)
+Before: 234 KINSLEY PARK DRIVE, SUITE 110
+After: 545 KINSLEY SADDLE DRIVE, SUITE 110
+Change: The account holder's street address on the Wells Fargo statement was changed from 234 Kinsley Park Drive to 545 Kinsley Saddle Drive.
+
+P007 | Paycheck Protection Program (PPP) Report, Approvals through 07/31/2020: Amount of Funding Remaining
+Original: genuine/P007_loan-or-credit-document_u-s-small-business-administration.pdf
+Altered: forged/P007_loan-or-credit-document_u-s-small-business-administration_FORGED.pdf
+Edited page: 9
+Field: amount of PPP loan funding remaining
+Before: $128,230,770,853
+After: $128,236,770,843
+Change: On the SBA's PPP loan report, the headline amount of loan funding remaining was changed from $128,230,770,853 to $128,236,770,843, about $6 million more.
+
+P008 | Lubbock-West Texas District FY 2019 Loan Approvals
+Original: genuine/P008_loan-or-credit-document_u-s-small-business-administration-lu.pdf
+Altered: forged/P008_loan-or-credit-document_u-s-small-business-administration-lu_FORGED.pdf
+Edited page: 2
+Field: 7(a) loan dollar volume for one lender (FortuneBank)
+Before: $545,000
+After: $575,000
+Change: On page 2, the SBA 7(a) loan volume credited to FortuneBank was raised from $545,000 to $575,000.
+
+P009 | Consolidated Reports of Condition and Income for a Bank with Domestic Offices Only and Total Assets Less than $5 Billion - FFIEC 051, Citizens Bank of Americus, report date 3/31/2026
+Original: genuine/P009_bank-regulatory-report_citizens-bank-of-americus.pdf
+Altered: forged/P009_bank-regulatory-report_citizens-bank-of-americus_FORGED.pdf
+Edited page: 26
+Field: nontransaction deposits of states and political subdivisions (RCON2530) and the Column C total (RCON2385)
+Before: 18,037; total 223,236
+After: 20,037; total 225,236
+Change: On Schedule RC-E (Deposit Liabilities), nontransaction deposits of states and political subdivisions in the U.S. (Column C) were raised from $18,037 thousand to $20,037 thousand, and the Column C total was raised by the same $2,000 thousand, from $223,236 thousand to $225,236 thousand, so the column still adds up.
+
+P010 | Community Reinvestment Act Performance Evaluation - New Commerce Bank, N.A.
+Original: genuine/P010_bank-regulatory-report_comptroller-of-the-currency-occ.pdf
+Altered: forged/P010_bank-regulatory-report_comptroller-of-the-currency-occ_FORGED.pdf
+Edited page: 3
+Field: construction and land development loans outstanding ($000)
+Before: 2,066
+After: 2,754
+Change: In the loan portfolio table on printed page 2 (PDF page 3), construction and land development loans were raised from $2,066 thousand to $2,754 thousand.
+
+P011 | 2025 Affordable Housing Preservation Loan Product
+Original: genuine/P011_bank-regulatory-report_fannie-mae.pdf
+Altered: forged/P011_bank-regulatory-report_fannie-mae_FORGED.pdf
+Edited page: 4
+Field: average plumbing repair cost (Detroit Home Repair Fund data)
+Before: $4,073
+After: $4,173
+Change: On page 4 the average plumbing repair cost quoted from Detroit repair data was raised from $4,073 to $4,173.
+
+P012 | 2025 Manufactured Housing Loan Product
+Original: genuine/P012_bank-regulatory-report_fannie-mae.pdf
+Altered: forged/P012_bank-regulatory-report_fannie-mae_FORGED.pdf
+Edited page: 2
+Field: former HomeStyle Renovation cost cap for manufactured-housing loans
+Before: $50,000
+After: $52,000
+Change: On page 2, the renovation cost cap that Fannie Mae says it removed for manufactured-home renovation loans was changed from $50,000 to $52,000.
+
+P013 | 2025 Rural Housing Outreach
+Original: genuine/P013_bank-regulatory-report_fannie-mae.pdf
+Altered: forged/P013_bank-regulatory-report_fannie-mae_FORGED.pdf
+Edited page: 1
+Field: planned minimum total of deposits in rural CDFIs
+Before: $20
+After: $29
+Change: On page 1, Fannie Mae's plan target for deposits in rural community lenders was raised from at least $20 million to at least $29 million.
+
+P014 | 2017 Community Lending Plan
+Original: genuine/P014_bank-regulatory-report_federal-home-loan-bank-of-dallas.pdf
+Altered: forged/P014_bank-regulatory-report_federal-home-loan-bank-of-dallas_FORGED.pdf
+Edited page: 6
+Field: HAVEN veterans housing program funds made available in 2016
+Before: $75,000
+After: $83,000
+Change: On page 6, the funds the Bank made available in 2016 for its veterans home-modification program were raised from $75,000 to $83,000.
+
+P015 | 2018 Community Lending Plan, Exhibit A: 2017 Goals Summary
+Original: genuine/P015_bank-regulatory-report_federal-home-loan-bank-of-san-franci.pdf
+Altered: forged/P015_bank-regulatory-report_federal-home-loan-bank-of-san-franci_FORGED.pdf
+Edited page: 6
+Field: small agribusiness loans CFI collateral as of 10/31/17 (unpaid principal balance, $ millions)
+Before: $204
+After: $207
+Change: In a Federal Home Loan Bank lending plan, the reported small agribusiness loan collateral as of 10/31/17 was raised from $204 million to $207 million.
+
+P016 | 2020 Targeted Community Lending Plan
+Original: genuine/P016_bank-regulatory-report_fhlb-des-moines-federal-home-loan-ba.pdf
+Altered: forged/P016_bank-regulatory-report_fhlb-des-moines-federal-home-loan-ba_FORGED.pdf
+Edited page: 3
+Field: maximum outstanding Community Investment Advance (CIA) balance per member
+Before: $10
+After: $11
+Change: The cap on each member's outstanding Community Investment Advance balance on page 3 was raised from $10 million to $11 million.
+
+P017 | Community Reinvestment Act Performance Evaluation - Quantum National Bank
+Original: genuine/P017_bank-regulatory-report_office-of-the-comptroller-of-the-cur.pdf
+Altered: forged/P017_bank-regulatory-report_office-of-the-comptroller-of-the-cur_FORGED.pdf
+Edited page: 6
+Field: percentage of low-income census tracts in the assessment area
+Before: 17.04
+After: 9.48
+Change: In the bank's assessment-area demographics, the share of low-income census tracts was lowered from 17.04% to 9.48%.
+
+P018 | Schedules of Federal Debt, for the month of April 30, 2020 - Unaudited
+Original: genuine/P018_financial-statement-or-a_bureau-of-the-fiscal-service-u-s-dep.pdf
+Altered: forged/P018_financial-statement-or-a_bureau-of-the-fiscal-service-u-s-dep_FORGED.pdf
+Edited page: 1
+Field: opening balance date of the monthly schedule
+Before: March 31, 2020
+After: April 28, 2020
+Change: The opening-balance date of the April 2020 federal debt schedule on page 1 was changed from March 31, 2020 to April 28, 2020.
+
+P019 | 4.1 Funding Position of Contracting Agencies, Risk Pools
+Original: genuine/P019_financial-statement-or-a_california-state-controller-s-office.pdf
+Altered: forged/P019_financial-statement-or-a_california-state-controller-s-office_FORGED.pdf
+Edited page: 5
+Field: 2018 funding ratio (%) of the Miscellaneous risk pool
+Before: 75.40
+After: 95.40
+Change: On page 5, the 2018 funding ratio shown for the Miscellaneous risk pool was changed from 75.40% to 95.40%: the original figure is still in the file but hidden, and the new one is displayed in its place. The same row repeated on the other pages still reads 75.40%.
+
+P020 | Schedule of Household Cash Receipts and Cash Disbursements (Jul-25)
+Original: genuine/P020_financial-statement-or-a_chapter-11-debtor-filed-in-u-s-bankr.pdf
+Altered: forged/P020_financial-statement-or-a_chapter-11-debtor-filed-in-u-s-bankr_FORGED.pdf
+Edited page: 1
+Field: cumulative total of salary or cash from business or self-employment
+Before: $427,758.02
+After: $927,758.02
+Change: On page 1 the cumulative salary and business income was raised from $427,758.02 to $927,758.02 by changing one digit.
+
+P021 | Reconciliation Detail - AXOS 74090, Period Ending 11/30/2021
+Original: genuine/P021_financial-statement-or-a_extrusion-group-llc-reconciliation-o.pdf
+Altered: forged/P021_financial-statement-or-a_extrusion-group-llc-reconciliation-o_FORGED.pdf
+Edited page: 1
+Field: report print date in the top-left header
+Before: 12/14/21
+After: 12/28/21
+Change: The date printed on the bank reconciliation report was moved from 12/14/21 to 12/28/21, two weeks later.
+
+P022 | Community Development Revolving Loan Fund - Preliminary & Unaudited Financial Highlights, July 31, 2022
+Original: genuine/P022_financial-statement-or-a_national-credit-union-administration.pdf
+Altered: forged/P022_financial-statement-or-a_national-credit-union-administration_FORGED.pdf
+Edited page: 1
+Field: status label on the cover ('PRELIMINARY & UNAUDITED')
+Before: PRELIMINARY & UNAUDITED
+After: 
+Change: The heading 'PRELIMINARY & UNAUDITED' was deleted from the cover page, leaving 'FINANCIAL HIGHLIGHTS, July 31, 2022'; the footnotes on the later statement pages still say the balances are preliminary and unaudited.
+
+P023 | Operating Fund Financial Statements as of and for the Years Ended December 31, 2019 and 2018, and Independent Auditors' Report
+Original: genuine/P023_financial-statement-or-a_national-credit-union-administration.pdf
+Altered: forged/P023_financial-statement-or-a_national-credit-union-administration_FORGED.pdf
+Edited page: 9
+Field: Capitalization threshold for buildings (fixed-asset accounting policy table)
+Before: $100,000
+After: $130,000
+Change: In the accounting-policy note on page 9, the capitalization threshold for buildings was raised from $100,000 to $130,000.
+
+P024 | Graphs and Ratios as of July 31, 2013 and July 31, 2012
+Original: genuine/P024_financial-statement-or-a_national-credit-union-administration.pdf
+Altered: forged/P024_financial-statement-or-a_national-credit-union-administration_FORGED.pdf
+Edited page: 7
+Field: annualized travel spend per employee, prior-year (7/31/2012) column
+Before: $20,758
+After: $21,758
+Change: In the ratios table on page 7, the prior-year annualized travel spend per employee was raised from $20,758 to $21,758.
+
+P025 | Balance Sheet as of March 31, 2011 / Statement of Income and Expenses for the Period Ending March 31, 2011
+Original: genuine/P025_financial-statement-or-a_national-credit-union-administration.pdf
+Altered: forged/P025_financial-statement-or-a_national-credit-union-administration_FORGED.pdf
+Edited page: 1
+Field: Technical Assistance Services expense, current year-to-date
+Before: $6,608.01
+After: $6,808.01
+Change: In the fund's statement of income and expenses, the year-to-date Technical Assistance Services expense was raised from $6,608.01 to $6,808.01 while the total was left unchanged.
+
+P026 | Balance Sheet as of January 31, 2011 / Statement of Income and Expenses For the Period Ending January 31, 2011
+Original: genuine/P026_financial-statement-or-a_national-credit-union-administration.pdf
+Altered: forged/P026_financial-statement-or-a_national-credit-union-administration_FORGED.pdf
+Edited page: 1
+Field: Technical Assistance Services expense, current year-to-date
+Before: $6,190.00
+After: $6,590.00
+Change: The year-to-date technical assistance expense on the loan fund's January 2011 income statement was raised from $6,190.00 to $6,590.00.
+
+P027 | Table 8.7 - Outlays for Discretionary Programs: 1962-2002 (continued), Historical Tables, Budget for Fiscal Year 1998
+Original: genuine/P027_financial-statement-or-a_office-of-management-and-budget-budg.pdf
+Altered: forged/P027_financial-statement-or-a_office-of-management-and-budget-budg_FORGED.pdf
+Edited page: 5
+Field: 1995 housing assistance outlays and the 1995 Total Income security subtotal ($ billions)
+Before: 27.4; 39.2
+After: 26.4; 38.2
+Change: On page 5, 1995 housing assistance outlays were cut from $27.4 billion to $26.4 billion, and the Income security subtotal was lowered to match (39.2 to 38.2).
+
+P028 | Table 2.4 - Composition of Social Insurance and Retirement Receipts and of Excise Taxes: 1940-2007
+Original: genuine/P028_financial-statement-or-a_office-of-management-and-budget-budg.pdf
+Altered: forged/P028_financial-statement-or-a_office-of-management-and-budget-budg_FORGED.pdf
+Edited page: 7
+Field: footnote rounding threshold
+Before: $500
+After: $510
+Change: The table footnote on page 7 was changed from "$500 thousand or less" to "$510 thousand or less".
+
+P029 | Monthly Operation Report PE 03/31/23
+Original: genuine/P029_financial-statement-or-a_stonebridge-ventures-llc-bankruptcy.pdf
+Altered: forged/P029_financial-statement-or-a_stonebridge-ventures-llc-bankruptcy_FORGED.pdf
+Edited page: 2
+Field: total disbursements as of 3/31/23 from the 5 Makena Lane sale
+Before: $2,255,938.32
+After: $7,255,938.32
+Change: The total disbursements from a property sale on page 2 were raised from $2,255,938.32 to $7,255,938.32.
+
+P030 | Bureau of Indian Affairs - Bureau Highlights (FY2026 Budget in Brief), Appropriation: Contract Support Costs
+Original: genuine/P030_financial-statement-or-a_u-s-department-of-the-interior-burea.pdf
+Altered: forged/P030_financial-statement-or-a_u-s-department-of-the-interior-burea_FORGED.pdf
+Edited page: 5
+Field: 2025 Notional amount for Contract Support (TPA) in the Contract Support Costs appropriation table
+Before: 337,080
+After: 187,871
+Change: In the Contract Support Costs table on page 5, the 2025 notional figure for Contract Support was cut from 337,080 to 187,871 (thousand dollars), while the total was left at 342,080.
+
+P031 | Appropriations, Outlays, and Balances - Continued: Footnotes
+Original: genuine/P031_financial-statement-or-a_u-s-department-of-the-treasury-finan.pdf
+Altered: forged/P031_financial-statement-or-a_u-s-department-of-the-treasury-finan_FORGED.pdf
+Edited page: 7
+Field: Opening-balance adjustment for account 58 01 0100 Unobligated Balances (Expired), footnote 6
+Before: $1,024,308.00
+After: $1,124,308.00
+Change: In footnote 6, the opening-balance adjustment for FEMA account 58 01 0100 (expired unobligated balances) was raised from $1,024,308.00 to $1,124,308.00.
+
+P032 | Notes to the Financial Statements - Change in Veterans Education and Training Benefits
+Original: genuine/P032_financial-statement-or-a_united-states-government-u-s-departm.pdf
+Altered: forged/P032_financial-statement-or-a_united-states-government-u-s-departm_FORGED.pdf
+Edited page: 8
+Field: 2019 actuarial (gains)/losses from assumption changes and total current year expense (billions of dollars)
+Before: 37.1; 51.3
+After: 39.1; 53.3
+Change: In the veterans education benefits table, the 2019 actuarial losses from assumption changes were raised from 37.1 to 39.1 billion dollars and the expense subtotal from 51.3 to 53.3, but the year-end liability was not updated.
+
+P033 | Amridge University, Inc. Financial Statements and Supplementary Information, June 30, 2023 and 2022, With Independent Auditor's Report Thereon
+Original: genuine/P033_audit-report_amridge-university-inc.pdf
+Altered: forged/P033_audit-report_amridge-university-inc_FORGED.pdf
+Edited page: 16
+Field: certificate of deposit (at cost) in the fair value measurement table on page 16
+Before: 22,913
+After: 14,642
+Change: In the fair value table on page 16 of the notes to the university's audited financial statements, the certificate of deposit was lowered from $22,913 to $14,642.
+
+P034 | Baker County District School Board, Financial and Federal Single Audit for the Fiscal Year Ended June 30, 2021 (Report No. 2022-148)
+Original: genuine/P034_audit-report_baker-county-district-school-board-r.pdf
+Altered: forged/P034_audit-report_baker-county-district-school-board-r_FORGED.pdf
+Edited page: 10
+Field: net position (assets and deferred outflows in excess of liabilities and deferred inflows) at June 30, 2021
+Before: $24,157,407
+After: $27,128,499
+Change: In the financial highlights on page 10, the school board's net position at June 30, 2021 was raised from $24,157,407 to $27,128,499.
+
+P035 | Financial Statements and Supplemental Information, For the Years Ended June 30, 2023 and 2022 (Cape & Islands Community Development Incorporated)
+Original: genuine/P035_audit-report_cape-islands-community-development-i.pdf
+Altered: forged/P035_audit-report_cape-islands-community-development-i_FORGED.pdf
+Edited page: 8
+Field: total general and administrative expenses, 2022 (prior-year table)
+Before: 116,553
+After: 152,133
+Change: On page 8, total general and administrative expenses for 2022 were raised from $116,553 to $152,133.
+
+P036 | Statements of Financial Position, June 30, 2023 and 2022
+Original: genuine/P036_audit-report_cincinnati-youth-collaborative.pdf
+Altered: forged/P036_audit-report_cincinnati-youth-collaborative_FORGED.pdf
+Edited page: 6
+Field: cash and cash equivalents, June 30, 2022 (prior-year column)
+Before: 291,545
+After: 210,289
+Change: On the balance sheet on page 6, cash and cash equivalents at June 30, 2022 was lowered from $291,545 to $210,289.
+
+P037 | Financial Audit: A Compilation of Audits of Three City Agencies Efforts to Recoup Design Error and Omission Change Order Costs (7E13-099S)
+Original: genuine/P037_audit-report_city-of-new-york-office-of-the-compt.pdf
+Altered: forged/P037_audit-report_city-of-new-york-office-of-the-compt_FORGED.pdf
+Edited page: 1
+Field: report issue date on the cover
+Before: April 8, 2013
+After: April 8, 2014
+Change: The issue date on the audit report's cover was moved one year later, from April 8, 2013 to April 8, 2014.
+
+P038 | Official Audit Report – Collaborative for Educational Services, for the period July 1, 2017 through March 31, 2019 (issued July 22, 2021)
+Original: genuine/P038_audit-report_commonwealth-of-massachusetts-office.pdf
+Altered: forged/P038_audit-report_commonwealth-of-massachusetts-office_FORGED.pdf
+Edited page: 2
+Field: recipient street address
+Before: 97 Hawley Street
+After: 96 Hawley Street
+Change: The street number in the recipient's address on the cover letter was changed from 97 Hawley Street to 96 Hawley Street.
+
+P039 | Statements of Cash Flows for the years ended June 30, 2023 and 2022
+Original: genuine/P039_audit-report_community-action-housing-corporation.pdf
+Altered: forged/P039_audit-report_community-action-housing-corporation_FORGED.pdf
+Edited page: 8
+Field: 2022 change in accounts payable (operating cash flows)
+Before: (5,004)
+After: (3,332)
+Change: On the cash flow statement (page 8), the 2022 change in accounts payable was altered from (5,004) to (3,332).
+
+P040 | Program Evaluation: Health Care Services, Department of Juvenile Justice (Report 04-05, April 2005)
+Original: genuine/P040_audit-report_georgia-department-of-audits-and-acc.pdf
+Altered: forged/P040_audit-report_georgia-department-of-audits-and-acc_FORGED.pdf
+Edited page: 9
+Field: FY2004 actual medical and dental care expenditures for facilities (Exhibit 4)
+Before: $8,470,208
+After: $7,614,779
+Change: In the expenditure table on page 9, the FY2004 medical and dental spending at facilities was lowered from $8,470,208 to $7,614,779.
+
+P041 | Financial Statements and Federal Single Audit Report - notes on fund balance (Unassigned Fund Balance)
+Original: genuine/P041_audit-report_kennewick-school-district-no-17-repo.pdf
+Altered: forged/P041_audit-report_kennewick-school-district-no-17-repo_FORGED.pdf
+Edited page: 27
+Field: amount committed to the minimum fund balance policy for 2018-19 (General Fund)
+Before: $8,700,000
+After: $9,246,885
+Change: On page 27, the amount committed to the district's minimum fund balance policy for 2018-19 was raised from $8,700,000 to $9,246,885.
+
+P042 | Management's Discussion and Analysis, December 31, 2021 - Financial Highlights
+Original: genuine/P042_audit-report_minnesota-prairie-county-alliance-ma.pdf
+Altered: forged/P042_audit-report_minnesota-prairie-county-alliance-ma_FORGED.pdf
+Edited page: 13
+Field: increase in net position for the year ended December 31, 2021
+Before: $2,296,754
+After: $2,778,108
+Change: In the financial highlights on page 13, the increase in the alliance's net position for 2021 was raised from $2,296,754 to $2,778,108.
+
+P043 | Management's Discussion and Analysis, Year Ended December 31, 2025 - Financial Highlights
+Original: genuine/P043_audit-report_mount-pleasant-housing-authority-rep.pdf
+Altered: forged/P043_audit-report_mount-pleasant-housing-authority-rep_FORGED.pdf
+Edited page: 6
+Field: prior-year (2024) total operating revenues
+Before: $1,081,314
+After: $1,018,155
+Change: On page 6 the housing authority's 2024 operating revenues were changed from $1,081,314 to $1,018,155.
+
+P044 | Town of Grand Island: Internal Controls Over Fuel Purchases, Report of Examination 2013M-182
+Original: genuine/P044_audit-report_office-of-the-new-york-state-comptro.pdf
+Altered: forged/P044_audit-report_office-of-the-new-york-state-comptro_FORGED.pdf
+Edited page: 1
+Field: end date of the audit period covered (cover page, and repeated on pages 4 and 12)
+Before: June 14, 2013
+After: June 14, 2014
+Change: The audit period end date on the cover (and in the scope text) was pushed one year later, from June 14, 2013 to June 14, 2014.
+
+P045 | Dutchess County - Financial Condition, Report of Examination 2013M-370 (Period Covered: January 1, 2012 - November 30, 2013)
+Original: genuine/P045_audit-report_office-of-the-new-york-state-comptro.pdf
+Altered: forged/P045_audit-report_office-of-the-new-york-state-comptro_FORGED.pdf
+Edited page: 15
+Field: street number of the 44 Hawley Street address listed for the Binghamton Regional Office and for Statewide Audits (two occurrences)
+Before: 44 Hawley Street
+After: 1 Hawley Street
+Change: In the comptroller's regional office listing (Appendix D), the address 44 Hawley Street was changed to 1 Hawley Street in both places it appears: under the Binghamton Regional Office and under Statewide Audits.
+
+P046 | Compliance Audit: The Fireman's Relief Association of Upper Gwynedd Township, PA
+Original: genuine/P046_audit-report_pennsylvania-department-of-the-audit.pdf
+Altered: forged/P046_audit-report_pennsylvania-department-of-the-audit_FORGED.pdf
+Edited page: 7
+Field: 2019 state aid allocated from Upper Gwynedd Township
+Before: $150,504
+After: $123,936
+Change: On page 7, the 2019 state aid allocated to the relief association from Upper Gwynedd Township was lowered from $150,504 to $123,936.
+
+P047 | Department of the Lottery: Advertising and Sponsorship and Selected Administrative Activities, Operational Audit, Report No. 2020-011
+Original: genuine/P047_audit-report_state-of-florida-auditor-general.pdf
+Altered: forged/P047_audit-report_state-of-florida-auditor-general_FORGED.pdf
+Edited page: 4
+Field: Total advertising and promotion appropriations, fiscal year 2016-17 (Table 1)
+Before: $39,550,453
+After: $42,550,453
+Change: In Table 1, the total 2016-17 advertising appropriation was raised from $39,550,453 to $42,550,453 while the two line items above it were left unchanged.
+
+P048 | Lake County District School Board Operational Audit, Report No. 2018-200
+Original: genuine/P048_audit-report_state-of-florida-auditor-general.pdf
+Altered: forged/P048_audit-report_state-of-florida-auditor-general_FORGED.pdf
+Edited page: 10
+Field: P-card expenditure total in audit Finding 6 (invoices not signed by cardholder)
+Before: $12,600
+After: $20,600
+Change: In an audit finding on page 10, the total of 8 P-card expenditures the cardholder never signed for was raised from $12,600 to $20,600.
+
+P049 | Department of Commerce - State Economic Development Incentive Programs and Selected Administrative Activities - Prior Audit Follow-Up, Operational Audit, Report No. 2025-003
+Original: genuine/P049_audit-report_state-of-florida-auditor-general.pdf
+Altered: forged/P049_audit-report_state-of-florida-auditor-general_FORGED.pdf
+Edited page: 4
+Field: total value of active economic development incentive agreements (narrative)
+Before: $387,931,840
+After: $467,931,840
+Change: In the audit report text, the total value of the 319 active economic development incentive agreements was raised from $387,931,840 to $467,931,840.
+
+P050 | State Board of Administration Local Government Surplus Funds Trust Fund (Florida PRIME) - Financial Audit, Report No. 2018-045
+Original: genuine/P050_audit-report_state-of-florida-auditor-general.pdf
+Altered: forged/P050_audit-report_state-of-florida-auditor-general_FORGED.pdf
+Edited page: 9
+Field: amount by which fiscal 2016 contributions and Fund B transfers exceeded withdrawals (financial analysis narrative)
+Before: $753
+After: $763
+Change: In the audit report's financial analysis, the amount by which 2016 contributions and transfers exceeded withdrawals was changed from $753 million to $763 million.
+
+P051 | Hardee County District School Board Financial and Federal Single Audit for the Fiscal Year Ended June 30, 2017 (Report No. 2018-120, March 2018) - Management's Discussion and Analysis, Financial Highlights
+Original: genuine/P051_audit-report_state-of-florida-auditor-general-har.pdf
+Altered: forged/P051_audit-report_state-of-florida-auditor-general-har_FORGED.pdf
+Edited page: 10
+Field: amount by which General Fund revenues exceeded expenditures, FY 2016-17
+Before: $585,486
+After: $310,218
+Change: On page 10 the amount by which the General Fund's revenues exceeded its expenditures was cut from $585,486 to $310,218.
+
+P052 | Sarasota County District School Board: Construction Expenses and Related Controls and Prior Audit Follow-Up, Operational Audit, Report No. 2021-012 (Management's Response)
+Original: genuine/P052_audit-report_state-of-florida-auditor-general-res.pdf
+Altered: forged/P052_audit-report_state-of-florida-auditor-general-res_FORGED.pdf
+Edited page: 9
+Field: Reimbursement received for a contractor's overbilling
+Before: $323,487.80
+After: $123,487.80
+Change: In the school district's response letter, the reimbursement it received for a contractor's overbilling was cut from $323,487.80 to $123,487.80.
+
+P053 | Taliaferro County Board of Education Annual Financial Report for the Fiscal Year Ended June 30, 2020 - Notes to the Basic Financial Statements (Categorization of Deposits)
+Original: genuine/P053_audit-report_taliaferro-county-board-of-education.pdf
+Altered: forged/P053_audit-report_taliaferro-county-board-of-education_FORGED.pdf
+Edited page: 23
+Field: carrying amount of deposits at June 30, 2020 (narrative sentence and reconciliation total)
+Before: $723,227.33
+After: $618,594.52
+Change: On page 23, the school district's carrying amount of deposits at June 30, 2020 was cut from $723,227.33 to $618,594.52, both in the text and in the reconciliation table total.
+
+P054 | Final Audit Report ED-OIG/A03H0008 (Gallaudet University Title IV compliance)
+Original: genuine/P054_audit-report_u-s-department-of-education-office-o.pdf
+Altered: forged/P054_audit-report_u-s-department-of-education-office-o_FORGED.pdf
+Edited page: 2
+Field: FSEOG federal funds disbursed, award year 2005-2006
+Before: 134,420
+After: 150,130
+Change: In the table of federal student-aid funds disbursed, the 2005-2006 FSEOG amount was raised from $134,420 to $150,130, while the printed total of $6,491,101 was left unchanged.
+
+P055 | Independence Day Celebrations: Estimated Costs and COVID-19 Protective Measures for 2020 Fourth of July Events (GAO-21-458)
+Original: genuine/P055_audit-report_u-s-government-accountability-office.pdf
+Altered: forged/P055_audit-report_u-s-government-accountability-office_FORGED.pdf
+Edited page: 9
+Field: FBI general event cost and the table total
+Before: 18,789; Total 2,610,164
+After: 21,789; Total 2,613,164
+Change: In Table 2 on page 9, the FBI's cost was raised from $18,789 to $21,789 and the total from $2,610,164 to $2,613,164 so the table still adds up.
+
+P056 | Wisconsin Retirement System, Calendar Year 2022 (Report 23-14, September 2023)
+Original: genuine/P056_audit-report_wisconsin-legislative-audit-bureau.pdf
+Altered: forged/P056_audit-report_wisconsin-legislative-audit-bureau_FORGED.pdf
+Edited page: 18
+Field: 2022 average annual annuity payment (margin note and body text)
+Before: $29,889
+After: $36,192
+Change: On page 18 the average annual pension payment for 2022 was raised from $29,889 to $36,192, in both the margin note and the body text.
+
+P057 | Utility Bill
+Original: genuine/P057_invoice-or-payment_city-of-texas-city.pdf
+Altered: forged/P057_invoice-or-payment_city-of-texas-city_FORGED.pdf
+Edited page: 1
+Field: water charge (customer copy)
+Before: $544.28
+After: $644.28
+Change: The water charge on the city utility bill was raised from $544.28 to $644.28.
+
+P058 | PACFA Shelter/Rescue Statistics Form (2020)
+Original: genuine/P058_tax-or-government-form_colorado-department-of-agriculture-p.pdf
+Altered: forged/P058_tax-or-government-form_colorado-department-of-agriculture-p_FORGED.pdf
+Edited page: 1
+Field: form date stamp (bottom right)
+Before: 6/9/2021
+After: 7/9/2021
+Change: The date at the bottom of the 2020 shelter statistics form was changed from 6/9/2021 to 7/9/2021.
+
+P059 | PACFA Shelter/Rescue Statistics Form (2021)
+Original: genuine/P059_tax-or-government-form_colorado-department-of-agriculture-p.pdf
+Altered: forged/P059_tax-or-government-form_colorado-department-of-agriculture-p_FORGED.pdf
+Edited page: 1
+Field: form date in the page footer
+Before: 6/1/2022
+After: 7/1/2022
+Change: The date printed at the bottom of the 2021 shelter statistics form was moved one month later, from 6/1/2022 to 7/1/2022.
+
+P060 | PACFA Shelter/Rescue Statistics Form (2025)
+Original: genuine/P060_tax-or-government-form_colorado-department-of-agriculture-p.pdf
+Altered: forged/P060_tax-or-government-form_colorado-department-of-agriculture-p_FORGED.pdf
+Edited page: 1
+Field: date in the bottom-right page footer
+Before: 5/12/2026
+After: 5/13/2026
+Change: The date in the bottom-right footer was moved forward one day, from 5/12/2026 to 5/13/2026.
+
+P061 | Gresham Enterprise Zone - Active Applications
+Original: genuine/P061_tax-or-government-form_gresham-enterprise-zone-city-of-gres.pdf
+Altered: forged/P061_tax-or-government-form_gresham-enterprise-zone-city-of-gres_FORGED.pdf
+Edited page: 1
+Field: investment amount for Microchip Technology (Phase 3) and the TOTAL Active Investment
+Before: $42,500,000; total $438,570,000
+After: $43,500,000; total $439,570,000
+Change: The investment reported for Microchip Technology (Phase 3) was raised from $42,500,000 to $43,500,000, and the table total was raised by the same $1,000,000 so it still adds up.
+
+P062 | Action Plan - Grant R-U1-1C-AI-0044, Activity 02 Homeownership and Financial Security Counseling
+Original: genuine/P062_tax-or-government-form_u-s-department-of-housing-and-urban.pdf
+Altered: forged/P062_tax-or-government-form_u-s-department-of-housing-and-urban_FORGED.pdf
+Edited page: 6
+Field: proposed budget for the responsible organization (karuk Tribe) of activity 02
+Before: $ 84,343.25
+After: $ 93,940.08
+Change: On page 6, the proposed budget for the organization carrying out the counseling activity was raised from $84,343.25 to $93,940.08.
+
+P063 | U.S. Importers' Questionnaire: Certain Passenger Vehicle and Light Truck Tires from China
+Original: genuine/P063_tax-or-government-form_united-states-international-trade-co.pdf
+Altered: forged/P063_tax-or-government-form_united-states-international-trade-co_FORGED.pdf
+Edited page: 1
+Field: OMB form expiration date in the header
+Before: 6/30/2011
+After: 7/30/2011
+Change: The form's OMB expiration date in the page 1 header was moved from 6/30/2011 to 7/30/2011.
+
+P064 | Purchase and Assumption Agreement, Whole Bank, All Deposits, among the FDIC as Receiver of Cooperative Bank, Wilmington, North Carolina, the FDIC and First Bank, Troy, North Carolina, dated as of June 19, 2009
+Original: genuine/P064_contract-or-agreement_federal-deposit-insurance-corporatio.pdf
+Altered: forged/P064_contract-or-agreement_federal-deposit-insurance-corporatio_FORGED.pdf
+Edited page: 42
+Field: payment threshold below which payments may be made by check (Section 13.8)
+Before: $25,000.00
+After: $22,632.56
+Change: In section 13.8 of the agreement (page 42), the amount up to which payments may be made by check was lowered from $25,000.00 to $22,632.56.
+
+P065 | Amendment of Solicitation/Modification of Contract
+Original: genuine/P065_contract-or-agreement_u-s-department-of-energy-sc-oak-ridg.pdf
+Altered: forged/P065_contract-or-agreement_u-s-department-of-energy-sc-oak-ridg_FORGED.pdf
+Edited page: 1
+Field: contractor contact name (Attn line, block 8)
+Before: Angela Holmberg
+After: Lionel Radcliffe
+Change: The contact person named on the contractor's Attn line in block 8 was changed from Angela Holmberg to Lionel Radcliffe.
+
+P066 | AB-8611, Mohamad Pournamdari, Inc., dba Mobile Mart v. Department of Alcoholic Beverage Control
+Original: genuine/P066_enforcement-or-court-doc_alcoholic-beverage-control-appeals-b.pdf
+Altered: forged/P066_enforcement-or-court-doc_alcoholic-beverage-control-appeals-b_FORGED.pdf
+Edited page: 1
+Field: licence issue date
+Before: April 9, 2001
+After: March 5, 2001
+Change: The date the store's alcohol licence was issued was changed from April 9, 2001 to March 5, 2001.
+
+P067 | AB-8628, Nguyen v. Department of Alcoholic Beverage Control, issued May 30, 2007
+Original: genuine/P067_enforcement-or-court-doc_alcoholic-beverage-control-appeals-b.pdf
+Altered: forged/P067_enforcement-or-court-doc_alcoholic-beverage-control-appeals-b_FORGED.pdf
+Edited page: 1
+Field: date of the Department's decision (footnote 1)
+Before: September 22, 2006
+After: September 15, 2006
+Change: The date of the Department's original decision in footnote 1 was changed from September 22, 2006 to September 15, 2006.
+
+P068 | Order of Prohibition Issued Upon Consent (In the Matter of Kendall Hickman, Docket No. 25-013-E-I)
+Original: genuine/P068_enforcement-or-court-doc_board-of-governors-of-the-federal-re.pdf
+Altered: forged/P068_enforcement-or-court-doc_board-of-governors-of-the-federal-re_FORGED.pdf
+Edited page: 1
+Field: total amount embezzled
+Before: $33,212.84
+After: $41,212.84
+Change: The total amount the former bank employee embezzled, on page 1, was raised from $33,212.84 to $41,212.84.
+
+P069 | FORM 4 Distribution Report for Closed Asset Cases - Part A
+Original: genuine/P069_enforcement-or-court-doc_chapter-7-trustee-janet-m-nesse-file.pdf
+Altered: forged/P069_enforcement-or-court-doc_chapter-7-trustee-janet-m-nesse-file_FORGED.pdf
+Edited page: 1
+Field: general unsecured claims (claims column)
+Before: $24,560.36
+After: $46,560.36
+Change: On page 1 of the bankruptcy trustee's distribution report, the general unsecured claims figure in the $ CLAIMS column was raised from $24,560.36 to $46,560.36, yet the TOTAL DISBURSEMENTS line below still shows $28,855.05 in that column; the old figure remains in the file's hidden text layer.
+
+P070 | Consent Order (Ryann Thomas, BOKF, N.A., #2014-005)
+Original: genuine/P070_enforcement-or-court-doc_comptroller-of-the-currency-u-s-depa.pdf
+Altered: forged/P070_enforcement-or-court-doc_comptroller-of-the-currency-u-s-depa_FORGED.pdf
+Edited page: 9
+Field: OCC Deputy Comptroller's signing date
+Before: 1/8/14
+After: 
+Change: The date 1/8/14 beside the OCC Deputy Comptroller's signature on page 9 was erased, leaving the OCC's signing date blank; the respondent's signing date (12-26-13) is unchanged.
+
+P071 | Consent Order #2011-084 (AA-EC-11-33)
+Original: genuine/P071_enforcement-or-court-doc_comptroller-of-the-currency-u-s-depa.pdf
+Altered: forged/P071_enforcement-or-court-doc_comptroller-of-the-currency-u-s-depa_FORGED.pdf
+Edited page: 7
+Field: date beside the Director for Special Supervision's signature
+Before: 5/19/11
+After: 6/19/11
+Change: The date next to the OCC director's signature on page 7 was moved one month later, from 5/19/11 to 6/19/11.
+
+P072 | Notice of Charges for Prohibition and Notice of Assessment of Civil Money Penalty (#N15-002)
+Original: genuine/P072_enforcement-or-court-doc_office-of-the-comptroller-of-the-cur.pdf
+Altered: forged/P072_enforcement-or-court-doc_office-of-the-comptroller-of-the-cur_FORGED.pdf
+Edited page: 5
+Field: amount of personal loan (16)(a) to Company A
+Before: $13,700
+After: $14,700
+Change: The first personal loan the officer made to a borrower company, listed on page 5, was raised from $13,700 to $14,700.
+
+P073 | Consent Order #2013-102 (AA-EC-2013-20)
+Original: genuine/P073_enforcement-or-court-doc_office-of-the-comptroller-of-the-cur.pdf
+Altered: forged/P073_enforcement-or-court-doc_office-of-the-comptroller-of-the-cur_FORGED.pdf
+Edited page: 9
+Field: date beside the respondent's signature
+Before: 6/14/13
+After: 7/14/13
+Change: The date next to the respondent's signature on page 9 was moved one month later, from 6/14/13 to 7/14/13.
+
+P074 | Order Instituting Administrative and Cease-and-Desist Proceedings (In the Matter of McElhenny Sheffield Capital Management, LLC), Advisers Act Release No. 6410
+Original: genuine/P074_enforcement-or-court-doc_securities-and-exchange-commission.pdf
+Altered: forged/P074_enforcement-or-court-doc_securities-and-exchange-commission_FORGED.pdf
+Edited page: 2
+Field: regulatory assets under management reported on the adviser's Form ADV
+Before: $400 million
+After: $430 million
+Change: On page 2, the adviser's reported regulatory assets under management were raised from about $400 million to about $430 million.
+
+P075 | Order Instituting Administrative and Cease-and-Desist Proceedings (In the Matter of TD Securities (USA) LLC), Securities Act Release No. 11314
+Original: genuine/P075_enforcement-or-court-doc_securities-and-exchange-commission.pdf
+Altered: forged/P075_enforcement-or-court-doc_securities-and-exchange-commission_FORGED.pdf
+Edited page: 4
+Field: size of the first fully displayed spoofing sale order in the trade table
+Before: $800
+After: $880
+Change: On page 4, the first spoofing order in the trade table was raised from $800 million to $880 million, while the running totals ($1.6 billion, $2.2 billion) were left unchanged.
+
+P076 | Order Instituting Administrative and Cease-and-Desist Proceedings (In the Matter of Driftwood Advisors, LLC), Advisers Act Release No. 6804
+Original: genuine/P076_enforcement-or-court-doc_securities-and-exchange-commission.pdf
+Altered: forged/P076_enforcement-or-court-doc_securities-and-exchange-commission_FORGED.pdf
+Edited page: 2
+Field: regulatory assets under management reported on the adviser's Form ADV
+Before: $821
+After: $901
+Change: On page 2, the adviser's reported regulatory assets under management were raised from about $821 million to about $901 million.
+
+P077 | Sunnyside Nurseries, Inc. - Decision on Challenged Ballots (2 ALRB No. 3)
+Original: genuine/P077_enforcement-or-court-doc_state-of-california-agricultural-lab.pdf
+Altered: forged/P077_enforcement-or-court-doc_state-of-california-agricultural-lab_FORGED.pdf
+Edited page: 3
+Field: printed name of a Board member under his signature
+Before: LEROY CHATFIELD
+After: ESME PEMBERTON
+Change: The typed name of one Board member under a signature on page 3 was changed from LEROY CHATFIELD to ESME PEMBERTON.
+
+P078 | Desist and Refrain Order
+Original: genuine/P078_enforcement-or-court-doc_state-of-california-department-of-fi.pdf
+Altered: forged/P078_enforcement-or-court-doc_state-of-california-department-of-fi_FORGED.pdf
+Edited page: 1
+Field: respondent street address in the TO block
+Before: 7535 East Hampden Avenue, Suite 500
+After: 8870 East Ironwood Avenue, Suite 500
+Change: The company's street address in the order's TO block on page 1 was changed from 7535 East Hampden Avenue to 8870 East Ironwood Avenue.
+
+P079 | Order Instituting Cease-and-Desist Proceedings, In the Matter of Robert H. Turner (Securities Act Release No. 11317)
+Original: genuine/P079_enforcement-or-court-doc_u-s-securities-and-exchange-commissi.pdf
+Altered: forged/P079_enforcement-or-court-doc_u-s-securities-and-exchange-commissi_FORGED.pdf
+Edited page: 3
+Field: civil penalty imposed in the earlier Pareteum settlement
+Before: $500,000
+After: $540,000
+Change: On page 3 the civil penalty from Pareteum's earlier settlement was raised from $500,000 to $540,000.
+
+P080 | Order Making Findings and Imposing Remedial Sanctions Pursuant to Section 203(f) of the Investment Advisers Act of 1940 (Release No. 6539)
+Original: genuine/P080_enforcement-or-court-doc_u-s-securities-and-exchange-commissi.pdf
+Altered: forged/P080_enforcement-or-court-doc_u-s-securities-and-exchange-commissi_FORGED.pdf
+Edited page: 2
+Field: criminal restitution amount
+Before: $1,924,759.39
+After: $2,024,759.39
+Change: The restitution the respondent was ordered to pay, on page 2, was raised by $100,000, from $1,924,759.39 to $2,024,759.39.
+
+P081 | Order Denying Waiver, Docket No. 14-54-WA
+Original: genuine/P081_enforcement-or-court-doc_united-states-department-of-educatio.pdf
+Altered: forged/P081_enforcement-or-court-doc_united-states-department-of-educatio_FORGED.pdf
+Edited page: 2
+Field: overpayment debt amount (Procedural History)
+Before: $1,762.60
+After: $9,662.60
+Change: The salary overpayment owed by the employee on page 2 was raised from $1,762.60 to $9,662.60.
+
+P082 | Assessment of Civil Money Penalties with Undertakings (No. DI 99-011, Polish & Slavic Federal Credit Union)
+Original: genuine/P082_enforcement-or-court-doc_united-states-department-of-the-trea.pdf
+Altered: forged/P082_enforcement-or-court-doc_united-states-department-of-the-trea_FORGED.pdf
+Edited page: 1
+Field: credit union's approximate total assets as of September 1999
+Before: $600 million
+After: $661 million
+Change: On page 1 the credit union's stated assets were changed from approximately $600 million to approximately $661 million.
+
+P083 | Guidance to Encourage Financial Institutions' Youth Savings Programs and Address Related Frequently Asked Questions
+Original: genuine/P083_government-notice-or-let_board-of-governors-of-the-federal-re.pdf
+Altered: forged/P083_government-notice-or-let_board-of-governors-of-the-federal-re_FORGED.pdf
+Edited page: 2
+Field: statute citation in footnote 3 (Revised Code of Washington section)
+Before: 30.22.070
+After: 302.20.070
+Change: In footnote 3 on page 2, the cited Washington statute was changed from RCW 30.22.070 to 302.20.070.
+
+P084 | Addendum 1 - Annual Concrete - Bid No. 2019-U
+Original: genuine/P084_government-notice-or-let_columbia-county-board-of-county-comm.pdf
+Altered: forged/P084_government-notice-or-let_columbia-county-board-of-county-comm_FORGED.pdf
+Edited page: 1
+Field: bid due date
+Before: December 30, 2019
+After: November 11, 2019
+Change: The bid due date announced in the addendum was moved from December 30, 2019 to November 11, 2019.
+
+P085 | Letter to Mr. Mark Zuckerberg, Facebook, Inc., June 9, 2021
+Original: genuine/P085_government-notice-or-let_congress-of-the-united-states-jim-jo.pdf
+Altered: forged/P085_government-notice-or-let_congress-of-the-united-states-jim-jo_FORGED.pdf
+Edited page: 1
+Field: recipient street address
+Before: 1 Hacker Way
+After: 3 Rosewood Way
+Change: The recipient company's street address in the letter was changed from 1 Hacker Way to 3 Rosewood Way.
+
+P086 | Findings Concerning Section 1812(f) of the Social Security Act in Response to the Consequences of Severe Storm, Flooding, Landslides and Mudslides in the State of Hawaii in 2026
+Original: genuine/P086_government-notice-or-let_department-of-health-human-services.pdf
+Altered: forged/P086_government-notice-or-let_department-of-health-human-services_FORGED.pdf
+Edited page: 1
+Field: memo date
+Before: April 22, 2026
+After: March 25, 2026
+Change: The date of the CMS memorandum on page 1 was moved back from April 22, 2026 to March 25, 2026.
+
+P087 | Regulatory Interpretation 1999-RI-03, Attachment #1: Affordable Housing Program Needs Analysis Summary
+Original: genuine/P087_government-notice-or-let_federal-housing-finance-board.pdf
+Altered: forged/P087_government-notice-or-let_federal-housing-finance-board_FORGED.pdf
+Edited page: 3
+Field: Present Value of Buyer's Contribution (Step 1 example: present value of the buyer's payments to the sponsor)
+Before: $11,578
+After: $15,578
+Change: In a housing-finance worksheet, the present value of the home buyer's mortgage payments was raised from $11,578 to $15,578.
+
+P088 | Self-Regulatory Organizations; MIAX Sapphire, LLC; Notice of Filing and Immediate Effectiveness of a Proposed Rule Change
+Original: genuine/P088_government-notice-or-let_securities-and-exchange-commission-f.pdf
+Altered: forged/P088_government-notice-or-let_securities-and-exchange-commission-f_FORGED.pdf
+Edited page: 2
+Field: monthly Firm Fee Cap amount (all 5 mentions on pages 2-3)
+Before: $225,000
+After: $256,281
+Change: The proposed monthly Firm Fee Cap was raised from $225,000 to $256,281 everywhere it appears on pages 2 and 3.
+
+P089 | Certain Crystalline Silicon Photovoltaic Products From the People's Republic of China: Final Determination of Sales at Less Than Fair Value
+Original: genuine/P089_government-notice-or-let_u-s-department-of-commerce-internati.pdf
+Altered: forged/P089_government-notice-or-let_u-s-department-of-commerce-internati_FORGED.pdf
+Edited page: 2
+Field: start date of the period of investigation (POI)
+Before: April 1, 2013
+After: April 8, 2013
+Change: On page 2 the start of the period of investigation was moved from April 1, 2013 to April 8, 2013.
+
+P090 | Light-Walled Rectangular Pipe and Tube From Turkey: Notice of Final Determination of Sales at Less Than Fair Value
+Original: genuine/P090_government-notice-or-let_u-s-department-of-commerce-internati.pdf
+Altered: forged/P090_government-notice-or-let_u-s-department-of-commerce-internati_FORGED.pdf
+Edited page: 1
+Field: name of the signing official (Assistant Secretary for Import Administration) at the end of the preceding Commerce notice (FR Doc. E4–2043), whose last lines open page 1
+Before: James J. Jochum
+After: Dorian J. Jessup
+Change: On page 1, the signer's name at the end of the preceding Commerce Department notice (FR Doc. E4–2043, whose closing lines open the page) was changed from James J. Jochum to Dorian J. Jessup.
+
+P091 | Mortgagee Letter 2022-20: 2023 Nationwide Forward Mortgage Loan Limits
+Original: genuine/P091_government-notice-or-let_u-s-department-of-housing-and-urban.pdf
+Altered: forged/P091_government-notice-or-let_u-s-department-of-housing-and-urban_FORGED.pdf
+Edited page: 3
+Field: four-unit mortgage limit for special exception areas (AK, HI, GU, VI)
+Before: $3,142,800
+After: $3,542,800
+Change: On page 3, the four-unit FHA mortgage limit for Alaska, Hawaii, Guam and the Virgin Islands was raised from $3,142,800 to $3,542,800.
+
+P092 | SBA Procedural Notice: Paycheck Protection Program: E-Tran Loan Status Updates for PPP Partial and Full Forgiveness Payments (Control No. 5000-847210)
+Original: genuine/P092_government-notice-or-let_u-s-small-business-administration.pdf
+Altered: forged/P092_government-notice-or-let_u-s-small-business-administration_FORGED.pdf
+Edited page: 3
+Field: Remittance Penalty value lenders must enter for a partially forgiven PPP loan
+Before: $0.00
+After: $0.25
+Change: On page 3 of an SBA notice telling PPP lenders how to fill in Form 1502, the Remittance Penalty lenders must enter for a partially forgiven loan was changed from $0.00 to $0.25.
+
+P093 | Instruction Package: Veteran Federal Procurement Entrepreneur Training Program (VFPETP), Funding Opportunity VFPETP-2018-01
+Original: genuine/P093_government-notice-or-let_u-s-small-business-administration-of.pdf
+Altered: forged/P093_government-notice-or-let_u-s-small-business-administration-of_FORGED.pdf
+Edited page: 13
+Field: contract-value threshold above which GOTR approval and competition are required
+Before: $150,000
+After: $190,000
+Change: On page 13, the contract value above which grantees must get SBA approval and use competition was raised from $150,000 to $190,000.
+
+P094 | American Rescue Plan (ARP) Act of 2021
+Original: genuine/P094_government-notice-or-let_usda-rural-development-u-s-departmen.pdf
+Altered: forged/P094_government-notice-or-let_usda-rural-development-u-s-departmen_FORGED.pdf
+Edited page: 1
+Field: deadline for extra ARP funding
+Before: September 30, 2023
+After: September 23, 2023
+Change: On page 1, the date through which the American Rescue Plan's extra funding is available was changed from September 30, 2023 to September 23, 2023.
+
+P095 | Comments of Consumers Energy Company (Case No. U-20632)
+Original: genuine/P095_other_consumers-energy-company-before-the.pdf
+Altered: forged/P095_other_consumers-energy-company-before-the_FORGED.pdf
+Edited page: 2
+Field: date the commission opened the docket
+Before: September 11, 2019
+After: September 11, 2018
+Change: The date the Michigan Public Service Commission opened the docket was moved from September 11, 2019 to September 11, 2018.
+
+P096 | Barrier Participation Notes with Autocall Feature (Free Writing Prospectus)
+Original: genuine/P096_other_hsbc-usa-inc.pdf
+Altered: forged/P096_other_hsbc-usa-inc_FORGED.pdf
+Edited page: 1
+Field: dates of the referenced base prospectus, prospectus supplement and Stock-Linked Underlying Supplement (page 1 header and page 6 text)
+Before: February 21, 2024
+After: February 21, 2025
+Change: The dates of the prospectus documents this offering refers to were changed from February 21, 2024 to February 21, 2025 on pages 1 and 6.
+
+P097 | 7. Strengthening the American Community
+Original: genuine/P097_other_office-of-management-and-budget-budg.pdf
+Altered: forged/P097_other_office-of-management-and-budget-budg_FORGED.pdf
+Edited page: 3
+Field: proposed mandatory grant funding for rural Empowerment Zones
+Before: $120
+After: $150
+Change: On page 3, the proposed grant funding for rural Empowerment Zones was raised from $120 million to $150 million.
+
+P098 | No Surprises Act - section-by-section
+Original: genuine/P098_other_u-s-house-committee-on-education-and.pdf
+Altered: forged/P098_other_u-s-house-committee-on-education-and_FORGED.pdf
+Edited page: 3
+Field: deadline for the HHS study (Sec. 109. Reports)
+Before: January 1, 2023
+After: January 8, 2023
+Change: In the No Surprises Act section-by-section summary, the deadline for the HHS study under Sec. 109 was moved from January 1, 2023 to January 8, 2023.
+
+P099 | Report Name: Rice Trade - Monthly (Report Number BM2021-0017)
+Original: genuine/P099_other_united-states-department-of-agricult.pdf
+Altered: forged/P099_other_united-states-department-of-agricult_FORGED.pdf
+Edited page: 1
+Field: approving official's name ('Approved By')
+Before: Lisa Ahramjian
+After: Rupert Calloway
+Change: The name of the official who approved the USDA rice trade report was changed from Lisa Ahramjian to Rupert Calloway.
+
+P100 | Nuclear Waste: Technical, Schedule, and Cost Uncertainties of the Yucca Mountain Repository Project (GAO-02-191, December 2001)
+Original: genuine/P100_other_united-states-general-accounting-off.pdf
+Altered: forged/P100_other_united-states-general-accounting-off_FORGED.pdf
+Edited page: 16
+Field: assumed nuclear waste program funding for fiscal year 2003
+Before: $455 million
+After: $653 million
+Change: On page 16 the assumed fiscal year 2003 funding for the nuclear waste program was raised from $455 million to $653 million.
